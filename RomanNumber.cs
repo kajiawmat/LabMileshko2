@@ -124,6 +124,6 @@ public class RomanNumber : ICloneable, IComparable
 
 	public override string ToString()
 	{
-		return "" + Roman_to_10(this) + "\n";
+		return Roman + " = " + Roman_to_10(this) + "\n";
 	}
 }
